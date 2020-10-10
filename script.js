@@ -57,6 +57,7 @@ function getInfo(){
 }
 
 btn.addEventListener('click',()=>{
+    resultContainer.style.display = 'block'
     if (validate()){
             var [x,y] = getInfo()
             updateChart(myPlot, x, y);
