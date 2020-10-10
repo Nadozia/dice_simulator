@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Probablity of dice sum</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Peddana&family=Sansita+Swashed:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Probablity of dice sum</h1>
+    <div class='info'>
+        <div class='container'>
+        <input type='input' class='input-box' name='dice-number' id='dice-number' autocomplete="off" required>
+            <label for='dice-number' class='input-label'>
+                <span class='content'>Number of Dices</span>
+            </label>
+        </div>
+        <div class='container'>
+            <input type='input' class='input-box' name='diceSum' id='diceSum' autocomplete="off" required>
+            <label for='diceSum' class='input-label'>
+                <span class='content'>Sum of Dices</span>
+            </label>
+        </div>
+        <a id='check' href='#'>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Check
+        </a>
+    </div>
+    
+    <div class='result-container'>
+        <canvas id='myCanvas'></canvas>
+    </div>
+    <!-- Script -->
+    <script src='bundle.js'></script>
+</body>
+</html>
